@@ -24,20 +24,18 @@ public class Ex02 {
         // Lendo dados do usuário
         System.out.println("Nome: ");
         nome = leia.next();
-        
         System.out.println("Idade:");
         idade = leia.nextInt();
-        
         System.out.println("Altura:");
         altura = leia.nextDouble();
-        
         System.out.println("Matricula:");
         matricula = leia.nextBoolean();
         
-        System.out.println(nome);
-        System.out.println(idade);
-        System.out.println(altura);
-        System.out.println(matricula);
+        // Saída de dados
+        System.out.println("Nome:" + nome);
+        System.out.println("Idade:" + idade);
+        System.out.println("Altura:" + altura);
+        System.out.println("Matricula" + matricula);
     }
     
 }
